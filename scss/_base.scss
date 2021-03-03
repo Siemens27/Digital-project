@@ -82,3 +82,49 @@ hr{
     @include font (300, 64px, 1);
     color: $color-gray;
 }
+
+@media screen and (max-width: 576px){
+    .col-1{
+        width: 100%;
+    }
+    .col-2{
+        width: 100% ;
+    }
+    .col-3{
+        width: 100% ;
+    }
+    .col-4{
+        width: 100% ;
+    }
+    .col-5{
+        width: 100% ;
+    }
+    .col-6{
+        width: 100% ;
+    }
+    .col-7{
+        width: 100% ;
+    }
+    .col-8{
+        width: 100% ;
+    }
+    .col-9{
+        width: 100% ;
+    }
+    .col-10{
+        width: 100% ;
+    }
+    .col-11{
+        width: 100% ;
+    }
+    .col-12{
+        width: 100% ;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .title { 
+        font-size: 44px;
+        max-width: 300px;
+    }
+}

@@ -1,7 +1,7 @@
 .header {
   padding: 30px 0;
   &__row {
-    @include display-flex (space-between, center)
+    @include display-flex (space-between, center);
   }
 }
 
@@ -11,7 +11,29 @@
     display: flex;
   }
   &__item {
+    position: relative;
     margin-left: 60px;
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: $color-black;
+      transition: 0.5s;
+    }
+    &::after {
+      top: auto;
+      bottom: -5px;
+      left: auto;
+      right: 0;
+    }
+    &:hover{
+      &::before, &::after{
+        width: 100%;
+      }
+    }
   }
   &__link {
     color: $color-black;

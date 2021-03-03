@@ -3,7 +3,7 @@
   &__row {
     background-color: $color-section;
     padding: 30px 70px 30px 100px;
-    max-height: 435px;
+    min-height: 435px;
     box-sizing: border-box;
   }
   .col-5 .about__item {
