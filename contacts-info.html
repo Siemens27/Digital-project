@@ -75,14 +75,10 @@
               />
             </svg>
           </h3>
-          <label for=""><input type="text" placeholder="Имя" /></label>
-          <label for=""
-            ><input type="text" placeholder="Номер телефона*"
-          /></label>
-          <label for=""><input type="text" placeholder="E-mail*"></label>
-          <label for=""
-            ><input type="text" placeholder="Интересующий товар/услуга"
-          /></label>
+          <label for=""><input type="text" name= "name" placeholder="Имя" /></label>
+          <label for=""><input type="text" name= "phone" placeholder="Номер телефона*"/></label>
+          <label for=""><input type="text" name= "email" placeholder="E-mail*"></label>
+          <label for=""><input type="text" name= "product" placeholder="Интересующий товар/услуга" name= "name"/></label>
           <textarea
             name=""
             id=""
@@ -101,7 +97,7 @@
               Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
             </p>
           </label>
-          <button class="modal__btn">отправить</button>
+          <button class="modal__btn" type="submit">отправить</button>
         </form>
       </div>
       <div class="modal-thanks">
@@ -354,6 +350,8 @@
       <hr class="footer__border" />
       <div class="footer__end">© 2019 Digital Project. Все права защищены.</div>
     </footer>
+    <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/contacts.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

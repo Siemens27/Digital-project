@@ -317,6 +317,10 @@ hr {
   .container {
     padding: 0 20px;
   }
+  .title {
+    font-size: 44px;
+    max-width: 300px;
+  }
 }
 
 .header {
@@ -649,7 +653,7 @@ hr {
 .about__row {
   background-color: #FBFBFB;
   padding: 30px 70px 30px 100px;
-  max-height: 435px;
+  min-height: 435px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1226,7 +1230,7 @@ hr {
   letter-spacing: 0.2em;
   color: #ffffff;
   width: 100%;
-  padding: 15px 0;
+  padding: 30px 0;
   outline: none;
   border: none;
   background-color: #333333;
@@ -1311,7 +1315,7 @@ hr {
   letter-spacing: 0;
   color: #ffffff;
   width: 100%;
-  padding: 15px 0;
+  padding: 30px 0;
   color: #ffffff;
   outline: none;
   border: none;
@@ -1943,4 +1947,192 @@ hr {
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .row .hero__item {
+    padding-top: 0;
+  }
+  .hero .title {
+    font-size: 44px;
+  }
+  .hero__counter {
+    margin: 35px auto 60px;
+    text-align: center;
+    position: relative;
+  }
+  .hero .slick-next.slick-arrow,
+  .hero .slick-prev.slick-arrow {
+    top: 25%;
+  }
+  .hero .slick-next.slick-arrow {
+    left: auto;
+    right: 0;
+  }
+  .hero .slick-slide img {
+    margin-top: 20px;
+    height: 350px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    padding-top: 60px;
+  }
+  .about__row {
+    padding: 30px 20px 30px 20px;
+  }
+  .about__img_first {
+    margin-right: 0;
+  }
+  .about__img_second {
+    margin-top: 0;
+  }
+  .about__item {
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .col-5 .about__item {
+    margin-left: 0;
+  }
+  .about__description {
+    margin: 20px 0 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tasks {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .tasks__row {
+    padding-top: 30px;
+  }
+  .tasks__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tasks__number {
+    margin: 20px 0;
+  }
+  .tasks__description {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects {
+    padding-bottom: 100px;
+  }
+  .projects__info h5 {
+    font-size: 22px;
+  }
+  .projects__link {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contacts {
+    padding-bottom: 80px;
+  }
+  .contacts__btn {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo__link {
+    margin-bottom: 30px;
+  }
+  .footer__column_modify {
+    display: block;
+  }
+  .footer__list {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gallery__column {
+    width: 100%;
+  }
+  .gallery__column:first-child,
+  .gallery__column:nth-child(6) {
+    padding-left: 15px;
+  }
+  .gallery__column:nth-child(5),
+  .gallery__column:nth-child(10) {
+    padding-right: 15px;
+  }
+  .gallery__info {
+    text-align: center;
+  }
+  .gallery__counter {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .gallery__slider .slick-next.slick-arrow {
+    left: auto;
+    right: 0;
+    bottom: 0;
+  }
+  .gallery__slider .slick-prev.slick-arrow {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ourprojects__title {
+    font-size: 26px;
+  }
+  .ourprojects__counter {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .ourprojects .slick-next.slick-arrow {
+    left: auto;
+    right: 0;
+    bottom: 0;
+  }
+  .ourprojects .slick-prev.slick-arrow {
+    left: 0;
+    bottom: 0;
+  }
+  .ourprojects {
+    padding-bottom: 100px;
+  }
+  .parking__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .parking__description {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contacts-info__btn {
+    margin-bottom: 30px;
+  }
 }
