@@ -10,6 +10,10 @@
   .col-4 &__item {
     padding-top: 280px;
   }
+  &__column{
+    display: flex;
+    justify-content: flex-end
+  }
   &__link {
     @include font(400, 12px, 1, uppercase, 0.2em);
     @include position(auto, auto, -1px, -1px);

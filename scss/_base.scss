@@ -4,7 +4,7 @@ body{
     color: $color-black;
     
 }
-ul,h1,h2,h3,h4,h5,h6,body{
+ul,h1,h2,h3,h4,h5,h6,p,body{
     margin: 0;
     padding: 0;
 }
@@ -81,4 +81,46 @@ hr{
 .section__title{
     @include font (300, 64px, 1);
     color: $color-gray;
+}
+
+@media screen and (max-width: 576px){
+    .col-1{
+        width: 100%;
+    }
+    .col-2{
+        width: 100% ;
+    }
+    .col-3{
+        width: 100% ;
+    }
+    .col-4{
+        width: 100% ;
+    }
+    .col-5{
+        width: 100% ;
+    }
+    .col-6{
+        width: 100% ;
+    }
+    .col-7{
+        width: 100% ;
+    }
+    .col-8{
+        width: 100% ;
+    }
+    .col-9{
+        width: 100% ;
+    }
+    .col-10{
+        width: 100% ;
+    }
+    .col-11{
+        width: 100% ;
+    }
+    .col-12{
+        width: 100% ;
+    }
+    .container {
+        padding: 0 20px;
+    }
 }
